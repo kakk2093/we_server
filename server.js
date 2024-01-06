@@ -14,7 +14,7 @@ function close() {
 }
 
 function message(data, ws) {
-    console.log("received: %s", data);
+    console.log("received: ", data);
     ws.send(data);
 }
 
